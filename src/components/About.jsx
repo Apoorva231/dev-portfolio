@@ -15,10 +15,10 @@ export default function About() {
         <div className="bg-zinc-800/50 p-6 rounded-xl border border-zinc-700 shadow-lg">
           <h3 className="text-xl font-semibold mb-4 text-amber-400">Personal Info</h3>
           <ul className="space-y-3 text-zinc-300">
-            <li><strong>Location:</strong> Bangalore, India</li>
-            <li><strong>Email:</strong> apoorva@example.com</li>
-            <li><strong>Education:</strong> B.Tech in Computer Science</li>
-            <li><strong>Languages:</strong> English, Hindi</li>
+            <li><strong>Location:</strong> Montreal, Canada</li>
+            <li><strong>Email:</strong> abdiwakarsingh@gmail.com</li>
+            <li><strong>Education:</strong> Bachelor's in Computer Science Honors</li>
+            <li><strong>Languages:</strong> English, Hindi, French</li>
             <li><strong>Interests:</strong> Web Dev, AI, Photography</li>
           </ul>
         </div>

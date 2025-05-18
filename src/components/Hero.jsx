@@ -10,10 +10,9 @@ export default function Hero() {
       <h1 className="text-4xl md:text-5xl font-bold mb-4 text-amber-400">Hi, I'm Apoorva Bhardwaj</h1>
       <p className="text-xl text-zinc-300 max-w-2xl mx-auto">A passionate full-stack developer specializing in modern JavaScript frameworks and cloud technologies.</p>
       <div className="flex justify-center space-x-4 mt-8">
-        <motion.a href="https://github.com" target="_blank" rel="noopener noreferrer" whileHover={{ y: -3 }} className="text-zinc-300 hover:text-amber-400 transition-colors"><FiGithub size={24} /></motion.a>
-        <motion.a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" whileHover={{ y: -3 }} className="text-zinc-300 hover:text-amber-400 transition-colors"><FiLinkedin size={24} /></motion.a>
-        <motion.a href="https://twitter.com" target="_blank" rel="noopener noreferrer" whileHover={{ y: -3 }} className="text-zinc-300 hover:text-amber-400 transition-colors"><FiTwitter size={24} /></motion.a>
-        <motion.a href="mailto:contact@example.com" whileHover={{ y: -3 }} className="text-zinc-300 hover:text-amber-400 transition-colors"><FiMail size={24} /></motion.a>
+        <motion.a href="https://github.com/Apoorva231" target="_blank" rel="noopener noreferrer" whileHover={{ y: -3 }} className="text-zinc-300 hover:text-amber-400 transition-colors"><FiGithub size={24} /></motion.a>
+        <motion.a href="https://www.linkedin.com/in/apoorva--bhardwaj/" target="_blank" rel="noopener noreferrer" whileHover={{ y: -3 }} className="text-zinc-300 hover:text-amber-400 transition-colors"><FiLinkedin size={24} /></motion.a>
+        <motion.a href="abdiwakarsingh@gmail.com" whileHover={{ y: -3 }} className="text-zinc-300 hover:text-amber-400 transition-colors"><FiMail size={24} /></motion.a>
       </div>
     </motion.section>
   );
