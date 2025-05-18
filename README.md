@@ -11,9 +11,3 @@ A personal portfolio website built with **React**, **Tailwind CSS**, and **Frame
 - Resume download button
 - Social media links
 
-## 🛠 Getting Started
-
-### Install dependencies
-
-```bash
-npm install
