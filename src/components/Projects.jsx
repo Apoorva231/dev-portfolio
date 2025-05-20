@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import { FiGithub } from 'react-icons/fi';
 
 const projects = [
-  { title: "Movie Recommendation App", description: "A data-driven web app that ranks and recommends movies based on popularity using TMDb metadata and the IMDb weighted rating formula.", technologies: ["React", "Python" ,"Flask", "TMDB API","Pandas"], link: "#", github: "#" },
+  { title: "Movie Recommendation App", description: "A data-driven web app that ranks and recommends movies based on popularity using TMDb metadata and the IMDb weighted rating formula.", technologies: ["React", "Python" ,"Flask", "TMDB API","Pandas"], link: "https://web-production-ae879.up.railway.app/page/1", github: "https://github.com/Apoorva231/movie-recommendation-app" },
   { title: "Montreal Volleyball Club DB", description: "A 3NF normalizedd relational database system built with MySQL to manage club members, teams, and game sessions, featuring data integrity enforcement and automation via triggers and stored procedures.", technologies: ["MySQL", "ER Modeling", "Triggers", "Stored Procedures", "Normalization"], link: "#", github: "#" },
-  { title: "Portfolio Website", description: "A clean, modern developer portfolio showcasing my projects, skills, and photography. Contact form integrated with EmailJS.", technologies: ["React", "Tailwind CSS", "Vercel", "EmailJS"], link: "#", github: "#" },
-  { title: "Console baseed Othello Game", description: "A Java-based implementation of the Othello board game, built using object-oriented principles and UML-based architecture for clean code structure.", technologies: ["Java", "OOP", "UML", "Exception Handling", "File I/O"], link: "#", github: "#" }
+  { title: "Portfolio Website", description: "A clean, modern developer portfolio showcasing my projects, skills, and photography. Contact form integrated with EmailJS.", technologies: ["React", "Tailwind CSS", "Vercel", "EmailJS"], link: "#", github: "https://github.com/Apoorva231/dev-portfolio" },
+  { title: "Console baseed Othello Game", description: "A Java-based implementation of the Othello board game, built using object-oriented principles and UML-based architecture for clean code structure.", technologies: ["Java", "OOP", "UML", "Exception Handling", "File I/O"], link: "#", github: "https://github.com/Apoorva231/Othello-Game" }
 ];
 
 export default function Projects() {
