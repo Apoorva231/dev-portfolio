@@ -37,7 +37,7 @@ export default function Contact({ formData, setFormData, status, setStatus }) {
       <div className="grid md:grid-cols-2 gap-8">
         <div>
           <p className="text-lg text-zinc-300 mb-6">
-            I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll get back to you as soon as possible!
+            I'm currently looking for Fall 2025 internship opportunites. Whether you have a question or just want to say hi, I'll get back to you as soon as possible!
           </p>
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
@@ -46,13 +46,13 @@ export default function Contact({ formData, setFormData, status, setStatus }) {
             </div>
             <div className="flex items-center space-x-4">
               <FiLinkedin className="text-amber-400 text-xl" />
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-zinc-300 hover:text-amber-400 transition-colors">
+              <a href="https://www.linkedin.com/in/apoorva--bhardwaj/" target="_blank" rel="noopener noreferrer" className="text-zinc-300 hover:text-amber-400 transition-colors">
                 linkedin.com/in/apoorva
               </a>
             </div>
             <div className="flex items-center space-x-4">
               <FiGithub className="text-amber-400 text-xl" />
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-zinc-300 hover:text-amber-400 transition-colors">
+              <a href="https://github.com/Apoorva231" target="_blank" rel="noopener noreferrer" className="text-zinc-300 hover:text-amber-400 transition-colors">
                 github.com/apoorva
               </a>
             </div>

@@ -19,7 +19,7 @@ export default function About() {
             <li><strong>Email:</strong> abdiwakarsingh@gmail.com</li>
             <li><strong>Education:</strong> Bachelor's in Computer Science Honors</li>
             <li><strong>Languages:</strong> English, Hindi, French</li>
-            <li><strong>Interests:</strong> Web Dev, AI, Photography</li>
+            <li><strong>Interests:</strong> Photography, Reading, Basketball, Cooking, Cycling</li>
           </ul>
         </div>
       </div>

@@ -11,13 +11,13 @@ export default function Education() {
         whileHover={{ scale: 1.01 }}
         transition={{ duration: 0.3 }}
       >
-        <h3 className="text-xl font-bold text-white mb-2">B.Tech in Computer Science</h3>
-        <p className="text-zinc-300 mb-1">XYZ University, Bangalore</p>
-        <p className="text-zinc-400 text-sm">2019 – 2023</p>
+        <h3 className="text-xl font-bold text-white mb-2">Bachelor's in Computer Science (Honors)</h3>
+        <p className="text-zinc-300 mb-1">Concordia University, Montreal</p>
+        <p className="text-zinc-400 text-sm">2024 – 2027</p>
         <ul className="list-disc list-inside text-zinc-300 mt-4 space-y-2">
-          <li>CGPA: 8.7 / 10</li>
-          <li>Core Courses: Data Structures, DBMS, Operating Systems, AI</li>
-          <li>Dean’s List 2021 & 2022</li>
+          <li>CGPA: 3.86 / 4.3</li>
+          <li>Completed Courses: Object Oriented Programming, Data Structures and Algorithms, Operating Systems, Databases, Web Programming, AI</li>
+          <li>Current Courses: Theoretical Computer Science, Intro to Software Engineering, Multivariable Calculus</li>
         </ul>
       </motion.div>
     </motion.section>

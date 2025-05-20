@@ -4,7 +4,7 @@ import { FiGithub } from 'react-icons/fi';
 const projects = [
   { title: "Movie Recommendation App", description: "A Flask + React web app suggesting movies based on user preferences using collaborative filtering.", technologies: ["React", "Flask", "TMDB API"], link: "#", github: "#" },
   { title: "Expense Tracker", description: "Full-stack application with user authentication to track personal expenses with analytics dashboard.", technologies: ["Node.js", "MongoDB", "Chart.js"], link: "#", github: "#" },
-  { title: "Portfolio Website", description: "This responsive portfolio website built with React and Framer Motion for smooth animations.", technologies: ["React", "Tailwind CSS", "Framer Motion"], link: "#", github: "#" },
+  { title: "Portfolio Website", description: "This responsive portfolio website built with React and Framer Motion for smooth animations.", technologies: ["React", "Tailwind CSS", "Framer Motion", "EmailJS"], link: "#", github: "#" },
   { title: "Task Management App", description: "Kanban-style task manager with drag-and-drop functionality and team collaboration features.", technologies: ["React", "Node.js", "WebSockets"], link: "#", github: "#" }
 ];
 

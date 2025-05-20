@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="flex justify-center space-x-4 mt-8">
         <motion.a href="https://github.com/Apoorva231" target="_blank" rel="noopener noreferrer" whileHover={{ y: -3 }} className="text-zinc-300 hover:text-amber-400 transition-colors"><FiGithub size={24} /></motion.a>
         <motion.a href="https://www.linkedin.com/in/apoorva--bhardwaj/" target="_blank" rel="noopener noreferrer" whileHover={{ y: -3 }} className="text-zinc-300 hover:text-amber-400 transition-colors"><FiLinkedin size={24} /></motion.a>
-        <motion.a href="abdiwakarsingh@gmail.com" whileHover={{ y: -3 }} className="text-zinc-300 hover:text-amber-400 transition-colors"><FiMail size={24} /></motion.a>
+        <motion.a href="mailto:abdiwakarsingh@gmail.com" whileHover={{ y: -3 }} className="text-zinc-300 hover:text-amber-400 transition-colors"><FiMail size={24} /></motion.a>
       </div>
     </motion.section>
   );
