@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const galleryPhotos = [
   { src: '/photos/venice.jpg', title: 'Venice', description: 'Sunset in Venice, Italy' },
-  { src: '/photos/iceland.jpg', title: 'Iceland', description: 'Northern lights above the ice plains' },
+  { src: '/photos/dakar.jpg', title: 'Dakar, Senegal', description: 'Moments before arriving at Goree Island' },
   { src: '/photos/japan.jpg', title: 'Japan', description: 'Cherry blossoms in full bloom' },
 ];
 

@@ -8,11 +8,11 @@ export default function About() {
       </h2>
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div>
-          <p className="text-lg text-zinc-300 leading-relaxed mb-6">I'm a full-stack developer with 3+ years of experience building web applications using modern technologies.</p>
-          <p className="text-lg text-zinc-300 leading-relaxed mb-6">My approach combines technical excellence with user-centered design to create applications that are both powerful and intuitive.</p>
-          <p className="text-lg text-zinc-300 leading-relaxed">When I'm not coding, you can find me contributing to open-source projects or exploring nature.</p>
+          <p className="text-lg text-zinc-300 leading-relaxed mb-6">I'm a third year computer science Student in Concordia University, Montreal.</p>
+          <p className="text-lg text-zinc-300 leading-relaxed mb-6"> I am passionate about building innovative solutions that enhance user experiences and streamline operations. I am currently seeking internship opportunities where I can apply my technical skills and contribute to meaningful projects.</p>
+          <p className="text-lg text-zinc-300 leading-relaxed">When I'm not coding, you can find me taking pictures in nature, playing basketball or reading books.</p>
         </div>
-        <div className="bg-zinc-800/50 p-6 rounded-xl border border-zinc-700 shadow-lg">
+        <div className="bg-zinc-800/50 p-6 rounded-xl border border-zinc-700 shadow-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
           <h3 className="text-xl font-semibold mb-4 text-amber-400">Personal Info</h3>
           <ul className="space-y-3 text-zinc-300">
             <li><strong>Location:</strong> Montreal, Canada</li>

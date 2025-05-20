@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const previewPhotos = [
   { src: '/photos/venice.jpg', alt: 'Sunset in Venice' },
-  { src: '/photos/iceland.jpg', alt: 'Northern lights in Iceland' },
+  { src: '/photos/dakar.jpg', alt: 'Goree Island in Dakar, Senegal' },
   { src: '/photos/japan.jpg', alt: 'Cherry blossoms in Japan' }
 ];
 
@@ -17,7 +17,7 @@ export default function Photography() {
         <span className="border-b-2 border-amber-400 pb-2">Photography</span>
       </h2>
       <p className="text-lg mb-6 text-white max-w-3xl">
-        A glimpse into my visual storytelling — moments captured across the world.
+        A glimpse into my visual storytelling 
       </p>
 
       <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">

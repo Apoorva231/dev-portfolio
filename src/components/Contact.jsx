@@ -42,7 +42,7 @@ export default function Contact({ formData, setFormData, status, setStatus }) {
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
               <FiMail className="text-amber-400 text-xl" />
-              <span className="text-zinc-300">apoorva@example.com</span>
+              <span className="text-zinc-300">abdiwakarsingh@gmail.com</span>
             </div>
             <div className="flex items-center space-x-4">
               <FiLinkedin className="text-amber-400 text-xl" />

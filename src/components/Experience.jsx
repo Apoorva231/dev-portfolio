@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 
 const experiences = [
-  { role: "Full Stack Developer Intern", company: "Tech Solutions Inc.", period: "Summer 2023", description: "Developed RESTful APIs and implemented frontend components for a SaaS product." },
-  { role: "Freelance Web Developer", company: "Self-employed", period: "2022 - Present", description: "Built responsive websites and web applications for small businesses and startups." }
+  { role: "Front End Developer", company: "Welfare Avenue", period: "March 2024-Present", description: "Maintaining and enhancing the organization’s website using ReactJS, JavaScript, HTML/CSS, JSX, and Hooks." },
+  
 ];
 
 export default function Experience() {
