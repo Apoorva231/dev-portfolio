@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 const previewPhotos = [
-  { src: '/photos/venice.jpg', alt: 'Sunset in Venice' },
+  { src: '/photos/montreal.jpg', alt: 'Autumn in at Mont Royal, Montreal' },
   { src: '/photos/dakar.jpg', alt: 'Goree Island in Dakar, Senegal' },
-  { src: '/photos/japan.jpg', alt: 'Cherry blossoms in Japan' }
+  { src: '/photos/japan.jpg', alt: 'Cherry blossoms in Tokyo, Japan' }
 ];
 
 export default function Photography() {

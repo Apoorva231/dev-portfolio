@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 const galleryPhotos = [
-  { src: '/photos/venice.jpg', title: 'Venice', description: 'Sunset in Venice, Italy' },
-  { src: '/photos/dakar.jpg', title: 'Dakar, Senegal', description: 'Moments before arriving at Goree Island' },
+  { src: '/photos/montreal.jpg', title: 'Montreal', description: 'Autumn in Mont Royal' },
+  { src: '/photos/dakar.jpg', title: 'Dakar', description: 'Moments before arriving at Goree Island' },
   { src: '/photos/japan.jpg', title: 'Japan', description: 'Cherry blossoms in full bloom' },
 ];
 
