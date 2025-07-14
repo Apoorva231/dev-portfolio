@@ -16,8 +16,8 @@ export default function Education() {
         <p className="text-zinc-400 text-sm">2024 – 2027</p>
         <ul className="list-disc list-inside text-zinc-300 mt-4 space-y-2">
           <li>CGPA: 3.86 / 4.3</li>
-          <li>Completed Courses: Object Oriented Programming, Data Structures and Algorithms, Operating Systems, Databases, Web Programming, AI</li>
-          <li>Current Courses: Theoretical Computer Science, Intro to Software Engineering, Multivariable Calculus</li>
+          <li>Completed Courses: OOP, DSA, Operating Systems, Databases, Web Programming, AI, Probability and Stats, Technical Writing and Communication</li>
+          <li>Current Courses: Theoretical Computer Science, Intro to Software Engineering, Multivariable Calculus, Social and Ethical Dimensions of ICT</li>
         </ul>
       </motion.div>
     </motion.section>
