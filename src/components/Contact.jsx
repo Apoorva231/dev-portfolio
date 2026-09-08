@@ -37,7 +37,7 @@ export default function Contact({ formData, setFormData, status, setStatus }) {
       <div className="grid md:grid-cols-2 gap-8">
         <div>
           <p className="text-lg text-zinc-300 mb-6">
-            I'm currently looking for Fall 2025 internship opportunites. Whether you have a question or just want to say hi, I'll get back to you as soon as possible!
+            I'm currently looking for Winter 2027 internship opportunites. Whether you have a question or just want to say hi, I'll get back to you as soon as possible!
           </p>
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
