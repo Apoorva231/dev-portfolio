@@ -2,8 +2,10 @@ import { motion } from 'framer-motion';
 import { FiGithub } from 'react-icons/fi';
 
 const projects = [
+  { title: "Smart Internship Tracker", description: "A publicly deployed full-stack internship tracking platform for managing applications, companies, follow-ups, dashboard metrics, search/filtering, status updates, and task workflows.", technologies: ["React", "TypeScript", "Spring Boot", "PostgreSQL", "AWS", "Docker"], link: "https://smart-internship-tracker-ebon.vercel.app", github: "https://github.com/Apoorva231/Smart-Internship-Tracker" },
+  { title: "MiniChess AI Engine", description: "A 5x5 chess engine supporting human-vs-AI and AI-vs-AI gameplay with legal move generation, heuristic board evaluation, configurable search limits, minimax, and alpha-beta pruning.", technologies: ["Python", "Minimax", "Alpha-Beta Pruning", "Game AI"], github: "https://github.com/Apoorva231/Comp472_MiniChess" },
   { title: "Movie Recommendation App", description: "A data-driven web app that ranks and recommends movies based on popularity using TMDb metadata and the IMDb weighted rating formula.", technologies: ["React", "Python" ,"Flask", "TMDB API","Pandas"], link: "https://web-production-ae879.up.railway.app/page/1", github: "https://github.com/Apoorva231/movie-recommendation-app" },
-  { title: "Montreal Volleyball Club DB", description: "A 3NF normalizedd relational database system built with MySQL to manage club members, teams, and game sessions, featuring data integrity enforcement and automation via triggers and stored procedures.", technologies: ["MySQL", "ER Modeling", "Triggers", "Stored Procedures", "Normalization"], link: "#", github: "#" },
+  { title: "Montreal Volleyball Club DB", description: "A 3NF normalized relational database system built with MySQL to manage club members, teams, and game sessions, featuring data integrity enforcement and automation via triggers and stored procedures.", technologies: ["MySQL", "ER Modeling", "Triggers", "Stored Procedures", "Normalization"], link: "#", github: "#" },
   { title: "Portfolio Website", description: "A clean, modern developer portfolio showcasing my projects, skills, and photography. Contact form integrated with EmailJS.", technologies: ["React", "Tailwind CSS", "Vercel", "EmailJS"], link: "#", github: "https://github.com/Apoorva231/dev-portfolio" },
   { title: "Console based Othello Game", description: "A Java-based implementation of the Othello board game, built using object-oriented principles and UML-based architecture for clean code structure.", technologies: ["Java", "OOP", "UML", "Exception Handling", "File I/O"], link: "#", github: "https://github.com/Apoorva231/Othello-Game" }
 ];
@@ -20,7 +22,7 @@ export default function Projects() {
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-2xl font-bold text-white group-hover:text-amber-400 transition-colors">{project.title}</h3>
               <div className="flex space-x-2">
-                {project.github && (
+                {project.github && project.github !== "#" && (
                   <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-amber-400">
                     <FiGithub size={20} />
                   </a>
@@ -33,7 +35,7 @@ export default function Projects() {
                 <span key={idx} className="text-xs bg-zinc-700 text-amber-300 px-2 py-1 rounded">{tech}</span>
               ))}
             </div>
-            {project.link && (
+            {project.link && project.link !== "#" && (
               <a href={project.link} target="_blank" rel="noopener noreferrer" className="inline-block text-amber-400 hover:text-amber-300 text-sm font-medium transition-colors">View Project →</a>
             )}
           </motion.div>

@@ -1,5 +1,4 @@
-import { useRef, useState, useEffect } from 'react';
-import { useAnimation } from 'framer-motion';
+import { useRef, useState, useEffect, useMemo } from 'react';
 
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
@@ -12,21 +11,34 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Education from '../components/Education';
 import Photography from '../components/Photography';
+import Leadership from '../components/Leadership';
 
 export default function Home() {
-  const sections = {
-    home: useRef(null),
-    about: useRef(null),
-    projects: useRef(null),
-    skills: useRef(null),
-    experience: useRef(null),
-    contact: useRef(null)
-  };
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const projectsRef = useRef(null);
+  const skillsRef = useRef(null);
+  const educationRef = useRef(null);
+  const experienceRef = useRef(null);
+  const leadershipRef = useRef(null);
+  const photographyRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const sections = useMemo(() => ({
+    home: homeRef,
+    about: aboutRef,
+    projects: projectsRef,
+    skills: skillsRef,
+    education: educationRef,
+    experience: experienceRef,
+    leadership: leadershipRef,
+    photography: photographyRef,
+    contact: contactRef
+  }), []);
 
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState('');
   const [activeSection, setActiveSection] = useState('home');
-  const controls = useAnimation();
 
   const scrollToSection = (ref) => {
     ref.current?.scrollIntoView({ behavior: 'smooth' });
@@ -49,7 +61,7 @@ export default function Home() {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [sections]);
 
   return (
     <div className="font-sans bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))]
@@ -62,6 +74,7 @@ export default function Home() {
         <section ref={sections.skills}><Skills /></section>
         <section ref={sections.education}><Education /></section>
         <section ref={sections.experience}><Experience /></section>
+        <section ref={sections.leadership}><Leadership /></section>
         <ResumeDownload />
         <section ref={sections.photography}><Photography /></section>
         <section ref={sections.contact}>

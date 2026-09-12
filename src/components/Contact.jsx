@@ -13,7 +13,7 @@ export default function Contact({ formData, setFormData, status, setStatus }) {
     setStatus('Sending...');
 
     try {
-      const result = await emailjs.send(
+      await emailjs.send(
         'service_v319221',
         'template_2rsu096',
         formData,

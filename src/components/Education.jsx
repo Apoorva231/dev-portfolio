@@ -11,13 +11,13 @@ export default function Education() {
         whileHover={{ scale: 1.01 }}
         transition={{ duration: 0.3 }}
       >
-        <h3 className="text-xl font-bold text-white mb-2">Bachelor's in Computer Science (Honors)</h3>
-        <p className="text-zinc-300 mb-1">Concordia University, Montreal</p>
-        <p className="text-zinc-400 text-sm">2024 – 2027</p>
+        <h3 className="text-xl font-bold text-white mb-2">Bachelor of Computer Science, Honors Co-op</h3>
+        <p className="text-zinc-300 mb-1">Concordia University, Montreal, QC</p>
+        <p className="text-zinc-400 text-sm">Jan. 2024 - Dec. 2027</p>
         <ul className="list-disc list-inside text-zinc-300 mt-4 space-y-2">
-          <li>CGPA: 3.86 / 4.3</li>
-          <li>Completed Courses: OOP, DSA, Operating Systems, Databases, Web Programming, AI, Probability and Stats, Technical Writing and Communication</li>
-          <li>Current Courses: Theoretical Computer Science, Intro to Software Engineering, Multivariable Calculus, Social and Ethical Dimensions of ICT</li>
+          <li>Minor: Math & Statistics</li>
+          <li>CGPA: 3.87 / 4.30</li>
+          <li>Relevant Coursework: Object Oriented Programming, Data Structures and Algorithms, Operating Systems, Databases, Computer Networks, Artificial Intelligence, Machine Learning, Deep Learning</li>
         </ul>
       </motion.div>
     </motion.section>

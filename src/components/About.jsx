@@ -8,8 +8,8 @@ export default function About() {
       </h2>
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div>
-          <p className="text-lg text-zinc-300 leading-relaxed mb-6">I'm a third year computer science Student in Concordia University, Montreal.</p>
-          <p className="text-lg text-zinc-300 leading-relaxed mb-6"> I am passionate about building innovative solutions that enhance user experiences and streamline operations. I am currently seeking internship opportunities where I can apply my technical skills and contribute to meaningful projects.</p>
+          <p className="text-lg text-zinc-300 leading-relaxed mb-6">I'm an Honors Co-op computer science student at Concordia University with a Math & Statistics minor.</p>
+          <p className="text-lg text-zinc-300 leading-relaxed mb-6">I like building practical software across the stack, from React interfaces and Spring Boot APIs to PySpark data pipelines and cloud deployments. My recent work includes production tooling at Airbus Canada, technical publishing at Concordia, and full-stack projects with authentication, CI, and deployed infrastructure.</p>
           <p className="text-lg text-zinc-300 leading-relaxed">When I'm not coding, you can find me taking pictures in nature, playing basketball or reading books.</p>
         </div>
         <div className="bg-zinc-800/50 p-6 rounded-xl border border-zinc-700 shadow-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
@@ -17,7 +17,8 @@ export default function About() {
           <ul className="space-y-3 text-zinc-300">
             <li><strong>Location:</strong> Montreal, Canada</li>
             <li><strong>Email:</strong> abdiwakarsingh@gmail.com</li>
-            <li><strong>Education:</strong> Bachelor's in Computer Science Honors</li>
+            <li><strong>Education:</strong> Bachelor of Computer Science, Honors Co-op</li>
+            <li><strong>Minor:</strong> Math & Statistics</li>
             <li><strong>Languages:</strong> English, Hindi, French</li>
             <li><strong>Interests:</strong> Photography, Reading, Basketball, Cooking, Cycling</li>
           </ul>
