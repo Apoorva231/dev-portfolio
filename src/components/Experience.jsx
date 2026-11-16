@@ -33,9 +33,9 @@ const experiences = [
   {
     role: "Front End Developer",
     company: "Welfare Avenue",
-    period: "March 2024 - Present",
+    period: "March 2024 - August 2025",
     bullets: [
-      "Maintaining and enhancing the organization's website using ReactJS, JavaScript, HTML/CSS, JSX, and Hooks."
+      "Maintained and enhanced the organization's website using ReactJS, JavaScript, HTML/CSS, JSX, and Hooks."
     ]
   }
 ];
