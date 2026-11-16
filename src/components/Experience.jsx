@@ -2,6 +2,12 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
+    role: "Incoming Software Developer Intern",
+    company: "Ribbon Communications",
+    period: "January 2027 to April 2027",
+    description: "I’ll join Ribbon’s Analytics team to build product features and shared microservices, primarily in Go, with Kubernetes and AWS as target deployment platforms. I’m especially excited to learn how IP networks carry real-time communications and how analytics can help engineers understand network performance."
+  },
+  {
     role: "Software Developer Intern",
     company: "Airbus Canada",
     location: "Mirabel, QC",
@@ -50,11 +56,15 @@ export default function Experience() {
             <h4 className="text-lg text-zinc-300 mb-4">
               {exp.company}{exp.location ? ` - ${exp.location}` : ''}
             </h4>
-            <ul className="list-disc list-inside text-zinc-300 space-y-2">
-              {exp.bullets.map((bullet, idx) => (
-                <li key={idx}>{bullet}</li>
-              ))}
-            </ul>
+            {exp.description ? (
+              <p className="text-zinc-300">{exp.description}</p>
+            ) : (
+              <ul className="list-disc list-inside text-zinc-300 space-y-2">
+                {exp.bullets.map((bullet, idx) => (
+                  <li key={idx}>{bullet}</li>
+                ))}
+              </ul>
+            )}
             {exp.link && (
               <a href={exp.link} target="_blank" rel="noopener noreferrer" className="inline-block text-amber-400 hover:text-amber-300 text-sm font-medium transition-colors mt-4">
                 View Published Text →
